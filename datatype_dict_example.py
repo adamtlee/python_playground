@@ -36,11 +36,11 @@ team = {
     ]
 }
 
-print("The entire list: ", team)
+print("The entire dictionary: ", team)
 print()
-print("The the athlete at index 0 : ", team["athletes"][0])
-print("The the athlete at index 1 : ", team["athletes"][1])
-print("The the athlete at index 3 : ", team["athletes"][2])
+print("The athlete at index 0 : ", team["athletes"][0])
+print("The athlete at index 1 : ", team["athletes"][1])
+print("The athlete at index 2 : ", team["athletes"][2])
 
 print(type(team))
 
