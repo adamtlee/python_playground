@@ -42,8 +42,19 @@ print("The athlete at index 0 : ", team["athletes"][0])
 print("The athlete at index 1 : ", team["athletes"][1])
 print("The athlete at index 2 : ", team["athletes"][2])
 
+print()
+print("The data type: ")
 print(type(team))
 
+print()
+
+print("Using dict.get: ")
+for i in team.get('athletes'):
+    print(i)
+
+print()
+
+print("Using the specified key team[\"athletes\"]: ")
 for items in team["athletes"]:
-    print(items)
+     print(items)
 
